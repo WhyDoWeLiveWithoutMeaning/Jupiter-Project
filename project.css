@@ -1,0 +1,69 @@
+/* Add a background color and some padding to the header element */
+.header {
+    background-color: brown;
+    display: block;
+    padding:20px;
+    position: fixed; /* make the element fixed so it stays in place when the page is scrolled */
+    top: 0; /* position the element at the top of the viewport */
+    left: 0; /* position the element at the left of the viewport */
+    width: calc(98% - 4%); /* stretch the element to the full width of the viewport */
+    height: 60px; /* set the height to the desired value */
+  }
+
+  @media (max-width: 768px) {
+    .header {
+      width: 94%;
+    }
+  }
+  
+  /* Set the width of the header element to 98% for larger screens */
+  @media (min-width: 769px) {
+    .header {
+      width: 98%;
+    }
+  }
+  
+  /* Style the top banner with a horizontal layout and some border */
+  .top-banner {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Style the icon with a fixed size and some margin */
+  .icon {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+  }
+  
+  /* Style the login button with some color and font styles */
+/* CSS */
+.button-62 {
+    background: #90614D;
+    border: 0;
+    border-radius: 12px;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 2.5;
+    outline: transparent;
+    padding: 0 1rem;
+    text-align: center;
+    text-decoration: none;
+    transition: box-shadow .2s ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+  }
+  
+  .button-62:not([disabled]):focus {
+    box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+  }
+  
+  .button-62:not([disabled]):hover {
+    box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+  }
